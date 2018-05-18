@@ -11,7 +11,7 @@ import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
 import { CounterComponent } from './components/counter/counter.component';
 
 import { QuickViewComponent } from './components/quick-view/quick-view.component';
-import { PackagesComponent } from './components/packages/packages.component';
+import { PackagesViewComponent } from './components/packages-view/packages-view.component';
 import { IngredientsComponent } from './components/ingredients/ingredients.component';
 import { OrderActivitiesComponent } from './components/order-activities/order-activities.component';
 import { HistoryComponent } from './components/history/history.component';
@@ -26,7 +26,7 @@ import { CustomersComponent } from './components/customers/customers.component';
         FetchDataComponent,
         HomeComponent,
         QuickViewComponent,
-        PackagesComponent,
+        PackagesViewComponent,
         IngredientsComponent,
         OrderActivitiesComponent,
         HistoryComponent,
@@ -43,7 +43,7 @@ import { CustomersComponent } from './components/customers/customers.component';
             { path: 'counter', component: CounterComponent },
             { path: 'fetch-data', component: FetchDataComponent },
             { path: 'quick-view', component: QuickViewComponent },
-            { path: 'packages', component: PackagesComponent },
+            { path: 'packages-view', component: PackagesViewComponent },
             { path: 'ingredients', component: IngredientsComponent },
             { path: 'order-activities', component: OrderActivitiesComponent },
             { path: 'history', component: HistoryComponent },
