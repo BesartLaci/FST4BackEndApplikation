@@ -11,6 +11,12 @@ import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
 import { CounterComponent } from './components/counter/counter.component';
 
 import { QuickViewComponent } from './components/quick-view/quick-view.component';
+import { PackagesComponent } from './components/packages/packages.component';
+import { IngredientsComponent } from './components/ingredients/ingredients.component';
+import { OrderActivitiesComponent } from './components/order-activities/order-activities.component';
+import { HistoryComponent } from './components/history/history.component';
+import { ChocolatesComponent } from './components/chocolates/chocolates.component';
+import { CustomersComponent } from './components/customers/customers.component';
 
 @NgModule({
     declarations: [
@@ -19,7 +25,13 @@ import { QuickViewComponent } from './components/quick-view/quick-view.component
         CounterComponent,
         FetchDataComponent,
         HomeComponent,
-        QuickViewComponent
+        QuickViewComponent,
+        PackagesComponent,
+        IngredientsComponent,
+        OrderActivitiesComponent,
+        HistoryComponent,
+        ChocolatesComponent,
+        CustomersComponent
     ],
     imports: [
         CommonModule,
@@ -31,6 +43,12 @@ import { QuickViewComponent } from './components/quick-view/quick-view.component
             { path: 'counter', component: CounterComponent },
             { path: 'fetch-data', component: FetchDataComponent },
             { path: 'quick-view', component: QuickViewComponent },
+            { path: 'packages', component: PackagesComponent },
+            { path: 'ingredients', component: IngredientsComponent },
+            { path: 'order-activities', component: OrderActivitiesComponent },
+            { path: 'history', component: HistoryComponent },
+            { path: 'chocolates', component: ChocolatesComponent },
+            { path: 'customers', component: CustomersComponent },
             { path: '**', redirectTo: 'home' }
         ])
     ]
