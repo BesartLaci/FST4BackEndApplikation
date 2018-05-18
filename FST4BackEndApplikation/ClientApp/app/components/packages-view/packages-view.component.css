@@ -6,3 +6,14 @@
 
 
 }
+
+.package-view-list 
+{
+
+    height: 600px;
+    overflow: auto;
+    width: 20%;
+    border: 1px solid #000;
+}
+
+
