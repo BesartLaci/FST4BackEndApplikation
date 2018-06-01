@@ -1,1 +1,23 @@
 ﻿<div style="border: 1px solid red">ingredients Component</div>
+
+
+<!--<p *ngIf="!ingrediens"><em>Loading...</em></p>-->
+
+<table class='table' *ngIf="ingrediens">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Temp. (C)</th>
+            <th>Temp. (F)</th>
+            <th>Summary</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let ingredien of ingrediens">
+            <td>{{ ingredien.name }}</td>
+            <td>{{ ingredien.price }}</td>
+            <td>{{ ingredien.type }}</td>
+            <td>{{ ingredien.description }}</td>
+        </tr>
+    </tbody>
+</table>
